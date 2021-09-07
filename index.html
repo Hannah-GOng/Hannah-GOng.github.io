@@ -1,638 +1,181 @@
-<!DOCTYPE html>
-<html lang="en-us">
-
-<head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 3.3.0">
-  <meta name="generator" content="Hugo 0.53" />
-  <meta name="author" content="Han Gong">
-
-  <meta name="description" content="M.S in Data Science">
-
-  <link rel="alternate" hreflang="en-us" href="https://Hannah-GOng.github.io/">
-  <link rel="stylesheet" href="/style.css">
-
-  <meta name="theme-color" content="#2962ff">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
-
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
-
-
-  <link rel="icon" type="image/png" href="/img/icon.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
-
-  <link rel="canonical" href="https://Hannah-GOng.github.io/">
-
-  <meta property="twitter:card" content="summary">
-
-  <meta property="og:site_name" content="Han's Page">
-  <meta property="og:url" content="https://Hannah-GOng.github.io/">
-  <meta property="og:title" content="Han's Page">
-  <meta property="og:description" content="M.S in Data Science">
-  <meta property="og:locale" content="en-us">
-
-  <title>Han's Page</title>
-
-</head>
-
-<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
-  <aside class="search-results" id="search">
-    <div class="container">
-      <section class="search-header">
-
-        <div class="row no-gutters justify-content-between mb-3">
-          <div class="col-6">
-            <h1>Search</h1>
-          </div>
-          <div class="col-6 col-search-close">
-            <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
-          </div>
-        </div>
-
-        <div id="search-box">
-
-          <input name="q" id="search-query" placeholder="Search..." autocapitalize="off" autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
-
-        </div>
-
-      </section>
-      <section class="section-search-results">
-
-        <div id="search-hits">
-
-        </div>
-
-      </section>
-    </div>
-  </aside>
-
-  <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
-    <div class="container">
-
-      <a class="navbar-brand" href="/"><img src="/img/favicon.png" alt="Academic"></a>
-
-      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span><i class="fas fa-bars"></i></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbar">
-
-        <ul class="navbar-nav ml-auto">
-
-          <li class="nav-item">
-            <a class="nav-link" href="/#about" data-target="#about">
-
-              <span>Home</span>
-
-            </a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="/#experience" data-target="#experience">
-
-              <span>Experience</span>
-
-            </a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="/#projects" data-target="#projects">
-
-              <span>Projects</span>
-
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-    </div>
-  </nav>
-
-  <span id="homepage" style="display: none"></span>
-
-  <section id="about" class="home-section">
-    <div class="container">
-
-      <div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-telephone person-address">
-        <div class="col-12 col-lg-4">
-          <div id="profile">
-
-            <img class="portrait" src="/img/photo.jpeg" itemprop="image" alt="Avatar">
-
-            <div class="portrait-title">
-              <h2 itemprop="name">Han Gong</h2>
-              <h3 itemprop="jobTitle">M.S in Data Science</h3>
-
-              <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
-
-                <span itemprop="name">Duke University</span>
-
-              </h3>
-
-            </div>
-
-            <link itemprop="url" href="https://Hannah-GOng.github.io/">
-
-            <ul class="network-icon" aria-hidden="true">
-
-              <li>
-                <a itemprop="sameAs" href="mailto:han.gong@duke.edu">
-                  <i class="fas fa-envelope big-icon"></i>
-                </a>
-              </li>
-
-              <li>
-                <a itemprop="sameAs" href="https://www.linkedin.com/in/han-gong-20237214a/" target="_blank" rel="noopener">
-                  <i class="fab fa-linkedin big-icon"></i>
-                </a>
-              </li>
-
-              <li>
-                <a itemprop="sameAs" href="https://github.com/Hannah-GOng" target="_blank" rel="noopener">
-                  <i class="fab fa-github big-icon"></i>
-                </a>
-              </li>
-
-            </ul>
-
-          </div>
-        </div>
-        <div class="col-12 col-lg-8" itemprop="description">
-
-          <h1 id="biography"> Intro</h1>
-
-          <p>As a first-year Data Science master student with a background in advertising and statistics at Duke University, I'm passionate about exploring the interaction between data, technology, and marketing communication! With such an interdisciplinary experience, I am very interested in working for a data team with a collaborative, tech-savvy, and open-minded environment and a mission to understand and influence consumer’s way of thinking and behaving through data-driven technologies. </p>
-
-          <div class="row">
-
-            <div class="col-md-5">
-              <h3>Interests</h3>
-              <ul class="ul-interests">
-
-                <li>Machine/Deep Learning</li>
-
-                <li>Technology & Social Behavior</li>
-
-                <li>Statistical Analysis & Inference</li>
-
-                <li>NLP</li>
-
-                <li>Cloud Computing</li>
-
-              </ul>
-            </div>
-
-            <div class="col-md-7">
-              <h3>Education</h3>
-              <ul class="ul-edu fa-ul">
-
-                <li>
-                  <i class="fa-li fas fa-graduation-cap"></i>
-                  <div class="description">
-                    <p class="course">M.S in Data Science, 2022</p>
-                    <p class="institution">Duke University</p>
-                  </div>
-                </li>
-
-                <li>
-                  <i class="fa-li fas fa-graduation-cap"></i>
-                  <div class="description">
-                    <p class="course">B.S in Statistics & Advertising, 2020</p>
-                    <p class="institution">University of Illinois at Urbana-Champaign</p>
-                  </div>
-                </li>
-
-              </ul>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <section id="experience" class="home-section">
-    <div class="container">
-
-      <div class="row">
-        <div class="col-12 col-lg-4 section-heading">
-          <h1>Experience</h1>
-
-        </div>
-        <div class="col-12 col-lg-8">
-
-          <div class="row experience">
-
-            <div class="col-auto text-center flex-column d-none d-sm-flex">
-              <div class="row h-50">
-                <div class="col ">&nbsp;</div>
-                <div class="col">&nbsp;</div>
-              </div>
-              <div class="m-2">
-                <span class="badge badge-pill border ">&nbsp;</span>
-              </div>
-              <div class="row h-50">
-                <div class="col border-right">&nbsp;</div>
-                <div class="col">&nbsp;</div>
-              </div>
-            </div>
-
-            <div class="col py-2">
-              <div class="card">
-                <div class="card-body">
-                  <div class="float-right text-muted exp-meta">
-                    <div class="text-right">
-                      Jun 2019 –
-
-                      Jun 2020
-
-                    </div>
-
-                    <div class="text-right">Remote</div>
-
-                  </div>
-                  <h4 class="card-title exp-title text-muted mt-0 mb-1">Data Analyst Intern</h4>
-                  <h4 class="card-title exp-company text-muted my-0">NetEase Cloud Music</h4>
-                  <div class="card-text"><br>
-
-                    <ul>
-                      <li>Conducted three AB testing for a new user module on the homepage, collected and analyzed data for user growth</li>
-
-                      <li>Monitored user acquisition & retention data and built a user-friendly dashboard to visualize daily registration/login funnel from mobile-end, third-party binding and recall users data</li>
-
-                      <li>Evaluated user behaviors through attribution analysis, providing data support to improve hot song recommendation algorithm and reward mechanism
-
-                        <br /></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="row experience">
-
-            <div class="col-auto text-center flex-column d-none d-sm-flex">
-              <div class="row h-50">
-                <div class="col border-right">&nbsp;</div>
-                <div class="col">&nbsp;</div>
-              </div>
-              <div class="m-2">
-                <span class="badge badge-pill border ">&nbsp;</span>
-              </div>
-              <div class="row h-50">
-                <div class="col border-right">&nbsp;</div>
-                <div class="col">&nbsp;</div>
-              </div>
-            </div>
-
-            <div class="col py-2">
-              <div class="card">
-                <div class="card-body">
-                  <div class="float-right text-muted exp-meta">
-                    <div class="text-right">
-                      Sept 2018 –
-
-                      June 2020
-
-                    </div>
-
-                    <div class="text-right">Urbana, IL</div>
-
-                  </div>
-                  <h4 class="card-title exp-title text-muted mt-0 mb-1">Research Assistant</h4>
-                  <h4 class="card-title exp-company text-muted my-0">Technology and Social Behacior Lab</h4>
-                  <div class="card-text"><br>
-
-                    <ul>
-                      <li>Conducted 2x2 between-subject study “Persuasion Effects of Message Evidence under Different Modalities”, applied regression model and paired t-test on SPSS to detect the interactive effect</li>
-                      <li>Collected and validated data for “Decision Making Under Surveillance” research, extended the study result in application of target advertising under datafication
-                        <br /></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="row experience">
-
-            <div class="col-auto text-center flex-column d-none d-sm-flex">
-              <div class="row h-50">
-                <div class="col border-right">&nbsp;</div>
-                <div class="col">&nbsp;</div>
-              </div>
-              <div class="m-2">
-                <span class="badge badge-pill border ">&nbsp;</span>
-              </div>
-              <div class="row h-50">
-                <div class="col border-right">&nbsp;</div>
-                <div class="col">&nbsp;</div>
-              </div>
-            </div>
-
-            <div class="col py-2">
-              <div class="card">
-                <div class="card-body">
-                  <div class="float-right text-muted exp-meta">
-                    <div class="text-right">
-                      Jul 2019 –
-
-                      Sep 2019
-
-                    </div>
-
-                    <div class="text-right">Guangzhou, China</div>
-
-                  </div>
-                  <h4 class="card-title exp-title text-muted mt-0 mb-1">Marketing Manager Intern</h4>
-                  <h4 class="card-title exp-company text-muted my-0">Mars Wrigley</h4>
-                  <div class="card-text"><br>
-
-                    <ul>
-                      <li>Diagnosed disconnection in online consumer journey by mapping the user data to marketing matrix and visualizing insights through Shiny web-application and Neilson tools</li>
-                      <li>Planned and managed FIVE gum & KPL (a professional e-sport tournament) campaign through eCommerce and social media content, achieved 113% media impression delivery
-                        <br /></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <section id="projects" class="home-section">
-    <div class="container">
-
-      <div class="row">
-        <div class="col-xs-12 col-md-4 section-heading">
-
-          <h1>Projects</h1>
-
-        </div>
-        <div class="col-xs-12 col-md-8">
-
-          <span class="d-none default-project-filter">*</span>
-
-          <div class="project-toolbar">
-            <div class="project-filters">
-              <div class="btn-toolbar">
-                <div class="btn-group flex-wrap">
-
-                  <a href="#" data-filter="*" class="btn btn-primary btn-lg active">All</a>
-
-                  <a href="#" data-filter=".js-id-cloud-computing" class="btn btn-primary btn-lg">Cloud Computing</a>
-
-                  <a href="#" data-filter=".js-id-stats-modeling" class="btn btn-primary btn-lg">Statistical Modeling</a>
-
-                  <a href="#" data-filter=".js-id-ml" class="btn btn-primary btn-lg">ML/DL</a>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="row isotope projects-container js-layout-masonry ">
-
-            <!-- Project 1-->
-
-            <div class="col-12 col-md-6 col-lg-4 project-item isotope-item js-id-cloud-computing">
-              <div class="card">
-
-                <a href="https://github.com/Hannah-GOng/Cloud-computing-project-image-analysis" target="_blank" rel="noopener" class="card-image hover-overlay">
-                  <img src="/img/project1.png" alt="" class="img-responsive">
-                </a>
-
-                <div class="card-text">
-                  <h4><a href="https://github.com/Hannah-GOng/Cloud-computing-project-image-analysis" target="_blank" rel="noopener">Detect Celebrity From User-Upload Image</a></h4>
-                  <div class="card-desription">
-                    <p>Designed the architecture of a serverless data pipeline for CD and CI on the cloud</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Project 2-->
-
-            <div class="col-12 col-md-6 col-lg-4 project-item isotope-item js-id-stats-modeling">
-              <div class="card">
-
-                <a href="https://github.com/Hannah-GOng/Statistical-Analysis-for-Understanding-Job-Training-and-Wage" target="_blank" rel="noopener" class="card-image hover-overlay">
-                  <img src="/img/project2.jpg" alt="" class="img-responsive">
-                </a>
-
-                <div class="card-text">
-                  <h4><a href="https://github.com/Hannah-GOng/Statistical-Analysis-for-Understanding-Job-Training-and-Wage" target="_blank" rel="noopener">Understanding The Impact of Job Training On Disadvantaged Workers</a></h4>
-                  <div class="card-desription">
-                    <p>Interpret results from self-conducted EDA and model fitting on the NSW data using linear regression & logistic regression </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Project 3-->
-
-            <div class="col-12 col-md-6 col-lg-4 project-item isotope-item js-id-stats-modeling">
-              <div class="card">
-
-                <a href="https://github.com/Hannah-GOng/Obesity-Level-Estimation-Based-on-Eating-Habit-and-Physical-Condition" target="_blank" rel="noopener" class="card-image hover-overlay">
-                  <img src="/img/project3.jpg" alt="" class="img-responsive">
-                </a>
-
-                <div class="card-text">
-                  <h4><a href="https://github.com/Hannah-GOng/Obesity-Level-Estimation-Based-on-Eating-Habit-and-Physical-Condition" target="_blank" rel="noopener"> Obesity Level Estimation Based On Lifestyle Features</a></h4>
-                  <div class="card-desription">
-                    <p>Defined and finalized variables based on previous researches on obesity, conduct statistical inference on proportional odds, multi-nominal and SVM model</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Project 4-->
-
-            <div class="col-12 col-md-6 col-lg-4 project-item isotope-item js-id-stats-modeling">
-              <div class="card">
-
-                <a href="https://github.com/Hannah-GOng/Estrogen-Bioassay-and-Voting-in-NC-with-Hierarchy-model" target="_blank" rel="noopener" class="card-image hover-overlay">
-                  <img src="/img/project4.jpg" alt="" class="img-responsive">
-                </a>
-
-                <div class="card-text">
-                  <h4><a href="https://github.com/Hannah-GOng/Estrogen-Bioassay-and-Voting-in-NC-with-Hierarchy-model" target="_blank" rel="noopener"> Voting in NC</a></h4>
-                  <div class="card-desription">
-                    <p> Understanding whether the odds of voting differ by country in NC using hierarchical model</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Project 5-->
-
-            <div class="col-12 col-md-6 col-lg-4 project-item isotope-item js-id-ml">
-              <div class="card">
-
-                <a href="https://github.com/Hannah-GOng/LSTM-Word-Embeddings-For-Fake-News-Detection" target="_blank" rel="noopener" class="card-image hover-overlay">
-                  <img src="/img/project5.png" alt="" class="img-responsive">
-                </a>
-
-                <div class="card-text">
-                  <h4><a href="https://github.com/Hannah-GOng/LSTM-Word-Embeddings-For-Fake-News-Detection" target="_blank" rel="noopener">Fake News Detection with LSTM and Word Embeddings</a></h4>
-                  <div class="card-desription">
-                    <p>In this project we explore global vectors for word representation, and discuss what needs they were created to solve, how they are constructed and how the method compares to word2vec
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Project 6-->
-
-            <div class="col-12 col-md-6 col-lg-4 project-item isotope-item js-id-ml">
-              <div class="card">
-
-                <a href="https://github.com/Hannah-GOng/Stock-Prediction-Using-LSTM-ARIMA" target="_blank" rel="noopener" class="card-image hover-overlay">
-                  <img src="/img/project6.jpeg" alt="" class="img-responsive">
-                </a>
-
-                <div class="card-text">
-                  <h4><a href="https://github.com/Hannah-GOng/Stock-Prediction-Using-LSTM-ARIMA" target="_blank" rel="noopener">Stock Price Prediction using ARIMA and LSTM</a></h4>
-                  <div class="card-desription">
-                    <p>Constructed and trained ARIMA and LSTM models using Python (Keras & TensorFlow) to predict the closing prices of Apple, Google, Facebook and Amazon using data from Nasdaq Composite</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Project 7-->
-
-            <div class="col-12 col-md-6 col-lg-4 project-item isotope-item js-id-ml">
-              <div class="card">
-
-                <a href="https://github.com/Hannah-GOng/Detecting-Fraudulent-Transaction" target="_blank" rel="noopener" class="card-image hover-overlay">
-                  <img src="/img/project7.jpg" alt="" class="img-responsive">
-                </a>
-
-                <div class="card-text">
-                  <h4><a href="https://github.com/Hannah-GOng/Detecting-Fraudulent-Transaction" target="_blank" rel="noopener">Detecting-Fraudulent-Transaction</a></h4>
-                  <div class="card-desription">
-                    <p>build models featuring 28 principal components obtained with PCA and amount to identify a certain transaction is fraudulent or genuine using Neural Network, KNN, and Generalized Boosted models</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Project 8-->
-
-            <div class="col-12 col-md-6 col-lg-4 project-item isotope-item js-id-ml">
-              <div class="card">
-
-                <a href="https://github.com/Hannah-GOng/Walmart-Sale-Prediction" target="_blank" rel="noopener" class="card-image hover-overlay">
-                  <img src="/img/project8.png" alt="" class="img-responsive">
-                </a>
-
-                <div class="card-text">
-                  <h4><a href="https://github.com/Hannah-GOng/Walmart-Sale-Prediction" target="_blank" rel="noopener">Walmart Sales Prediction</a></h4>
-                  <div class="card-desription">
-                    <p>Generated exploratory data analysis, applied feature engineering and developed machine learning code to predict sales of 111 weather-related items in 45 Walmart stores</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  
-  <div id="modal" class="modal fade" role="dialog">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Cite</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <pre><code class="tex hljs"></code></pre>
-        </div>
-        <div class="modal-footer">
-          <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-            <i class="fas fa-copy"></i> Copy
-          </a>
-          <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-            <i class="fas fa-download"></i> Download
-          </a>
-          <div id="modal-error"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
-
-  <script>
-    hljs.initHighlightingOnLoad();
-  </script>
-
-  <script>
-    const search_index_filename = "/index.json";
-    const i18n = {
-      'placeholder': "Search...",
-      'results': "results found",
-      'no_results': "No results found"
-    };
-    const content_type = {
-      'post': "Posts",
-      'project': "Projects",
-      'publication': "Publications",
-      'talk': "Talks"
-    };
-  </script>
-
-  <script id="search-hit-fuse-template" type="text/x-template">
-    <div class="search-hit" id="summary-{{key}}">
-      <div class="search-hit-content">
-        <div class="search-hit-name">
-          <a href="{{relpermalink}}">{{title}}</a>
-          <div class="article-metadata search-hit-type">{{type}}</div>
-          <p class="search-hit-description">{{snippet}}</p>
-        </div>
-      </div>
-      </div>
-    </script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
-
-  <script src="/js/Han's Page.min.70f0041f5a24c6a675ac218c98d7ef71.js"></script>
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Han Gong - Home Page</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>Han Gong</strong> - Home Page </a>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+                    <li><a href="https://github.com/Hannah-GOng" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                    <li><a href="Han_Gong_Resume.pdf" class="icon brands fa-black-tie"><span class="label">Resume</span></a></li>
+									</ul>
+								</header>
+
+							<!-- Banner -->
+								<section id="banner">
+									<div class="content">
+										<header>
+                      <h1>Hi, <br> this is Han</h1>
+                    </header>
+                    
+                    <header>
+											<p> With over 99% confidence, we observe the p-value smaller than 0.01 and reject the null hypothesis that Han is NOT a data scientist </p>
+										</header>
+                    
+									</div>
+									<span class="image object">
+										<img src="images/Han_Gong.jpg" alt="" />
+									</span>
+								</section>
+
+							<!-- About Me -->
+								<section>
+									<header class="major">
+										<h2> ABOUT ME</h2>
+									</header>
+                    
+										<div class="row">
+											<div class="col-6 col-12-small">
+												<h3>BACKGROUD</h3>
+												<p> As a data science master's student at Duke, Han had lots of academic and industry experience in data visualization, statistical inference, ML, AB testing, and cutting-edge tools such as NLP and DL. With her background in statistics and advertising, she is a strong stories teller and a curious and passionate problem-solver. </p>
+											</div>
+											<div class="col-6 col-12-small">
+												<h3> INDUSTRY EXPERIENCE HIGHLIGHT </h3>
+                        <div class="col-4 col-12-medium">
+                          <h4> Lyft @ <u>Data Science Intern</u></h4>
+                          <h5> Technology and Social Behavior Lab @ <u> Research Assistant</u></h5>
+                          <h5> NetEase [Music Software] @ <u>Growth Data Analytics Intern</u></h5>
+                          <h5> Mars Wrigley @ <u> Marketing Manager Intern (Mars Leadership Experience)</u></h5>
+											</div>
+                   </section>
+
+
+<!-- Data Science Projects -->
+								<section>
+									<header class="major">
+										<h2>THE DATA PIECES</h2>
+									</header>
+									<div class="posts">
+                    
+                    <article>
+											<header>
+												<h2> Facial Expression Recognition in Remote Learning</h2>
+											</header>
+											<a href="https://github.com/Hannah-GOng/Facial-Expression-Recognition-in-Remote-Learning" class="image fit"><img src="images/facial_recognition.png" alt="" /></a>
+											<p>
+                        A key part of effective communication is the ability to get quality feedback, both verbal and non-verbal, that can be used to improve engagements future interactions [16]. However, capturing feedback and detecting the real time sentiment of audiences precisely, such as surprise or sadness, can be a challenging task when faces with the grid of faces we frequently see in video conferences.
+												 <br></br>
+The goal of this project is to present a final application that can help presenters to better evaluate the overall performance of the meeting attendees and improve overall communication efficiency. Specifically, this application uses a convolutional neural network to detect and classify video conference attendee facial expressions in real-time.
+											</p>
+											<ul class="actions special">
+                        <li><a href="project/Facial_Expression_Recognition_in_Remote_Learning.pdf" class="button">Read More</a></li>
+												<li><a href="https://github.com/Hannah-GOng/Facial-Expression-Recognition-in-Remote-Learning" class="button">Github</a></li>
+											</ul>
+										</article>
+                    
+										<article>
+											<header>
+												<h2> Cloud Architecture: Detect Celebrity From User-Upload Image</h2>
+											</header>
+											<a href="https://github.com/Hannah-GOng/Cloud-computing-project-image-analysis" class="image fit"><img src="images/workflow.png" alt="" /></a>
+											<p>
+												In this project, a flask web application is created and deployed using AWS Cloud9 IDE using Python, JavaScript, HTML, and CSS. Flask was used as a framework for the backend. Following instructions on the home page, user can upload photos to the web page, and the app will detect the celebrity contained in the photo. <br></br>
+
+                    The app was deployed through Elastic Beanstalk and is build and tested through AWS CodePipeline for continous delivery and continuous integration on the cloud.
+											</p>
+											<ul class="actions special">
+												<li><a href="https://github.com/Hannah-GOng/Cloud-computing-project-image-analysis" class="button">Github</a></li>
+											</ul>
+										</article>
+                      
+                      <article>
+											<header>
+												<h2> Word2vec and GloVe Embeddings For Fake News Text Classification</h2>
+											</header>
+											<a href="https://github.com/Hannah-GOng/LSTM-Word-Embeddings-For-Fake-News-Detection" class="image fit"><img src="images/news_visual.png" alt="" /></a>
+											<p>
+												In this project we explore global vectors for word representation (GloVe vectors), and discuss what needs they were created to solve, how they are constructed and how the method compares to word2vec. <br></br>
+
+												As part of the comparison, we explore the differences in the types of similar words the two methods produce and briefly discuss the mathematical reasoning behind that. We also train two LSTM classification models to identify fake news with both a word2vec and a GloVe embedding layer – which perform identically.
+											</p>
+											<ul class="actions special">
+                        <li><a href="project/NLP_Fake_News_Report.pdf" class="button">Read More</a></li>
+												<li><a href="https://github.com/Hannah-GOng/Cloud-computing-project-image-analysis" class="button">Github</a></li>
+											</ul>
+										</article>
+              
+              <article>
+											<header>
+												<h2> Proportional Odds Model On Estimation Obesity Level Based On Eating Habits and
+Physical Conditions</h2>
+											</header>
+											<a href="project/Proportional_Odds_Model_On_Estimation_Obesity_Level.pdf" class="image fit"><img src="images/obesity_model_measurement.png" alt="" /></a>
+											<p>
+												Previous research has shown that various social and behavioral factors
+can explain this rapid growth. Among them, unhealthy eating habits and lifestyle are two crucial risk factors
+for the development of obesity. <br></br>
+
+                   This analysis aims to conduct a statistical analysis based on previous study data on obesity estimation, using the proportional odds model to assess whether elements discussed in the study significantly predict obesity levels and whether the association between those behaviors or physical conditions obesity differs by
+gender. </p>
+											<ul class="actions special">
+                        <li><a href="project/project/Proportional_Odds_Model_On_Estimation_Obesity_Level.pdf" class="button">Read More</a></li>
+												<li><a href="https://github.com/Hannah-GOng/Obesity-Level-Estimation-Based-on-Eating-Habit-and-Physical-Condition" class="button">Github</a></li>
+											</ul>
+										</article>
+        
+									</div>
+								</section>
+        
+<!-- Creative Projects -->
+								<section>
+									<header class="major">
+										<h2> THE CREATIVE PIECES </h2>
+									</header>
+									<div class="posts">
+										<article>
+											<header>
+												<h2> National Student Advertising Competition 2019 - "Usual Fun" [Wienerschnitzel] </h2>
+											</header>
+											<a href="https://drive.google.com/file/d/1ETrjI1YBkaS-md4sSgU_ryqIe4HVTLdk/view?usp=sharingf" class="image fit"><img src="images/Media_Strategy.png" alt="" /></a>
+											<p>
+                        In my junior and senior of college, I took the role as a media planner in Univerisity of Illinois’s national student advertising competition (NSAC) team. In 2019, with a team of over 40 members, we created an annul campaign for Wienerschnitzel, a national hot dog brand. My role as a senior media planner, and later as media director, is to take the initiates in media research, in a team of 7, and finalized media plan for an integrated consumer journey
+                    
+											</p>
+											<ul class="actions special">
+												<li><a href="https://drive.google.com/file/d/1ETrjI1YBkaS-md4sSgU_ryqIe4HVTLdk/view?usp=sharing" class="button">Read More</a></li>
+											</ul>
+										</article>
+                  
+                  
+                     
+									</div>
+								</section>
+
+  	<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 
 </body>
-
 </html>
